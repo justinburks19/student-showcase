@@ -135,7 +135,7 @@ export default function Timeline({ events }: TimelineProps) {
         <div
           ref={lineRef}
           className="absolute top-6 left-0 right-0 h-0.5 bg-gradient-to-r from-primary-300 via-primary-500 to-primary-300 mx-8"
-          style={{ transformOrigin: 'left', scaleX: 0 }}
+          style={{ transformOrigin: 'left', transform: 'scaleX(0)' }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-primary-200 via-primary-400 to-primary-200 blur-sm opacity-50"></div>
         </div>
